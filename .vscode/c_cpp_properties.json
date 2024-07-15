@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}",
+                "${workspaceFolder}/deps/freertos_kernel/include",
+                "${workspaceFolder}/deps/freertos_kernel/portable/GCC/ARM_CM4F"
+            ],
+            "defines": [
+                "STM32F4"
+            ],
+            "compilerPath": "/opt/gcc_arm_13_2/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
